@@ -1,0 +1,15 @@
+<svg viewBox="0 0 909 1286" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.g0_1{fill:none;stroke:#D8D8D8;stroke-width:0.458;stroke-linejoin:round;}
+.g1_1{fill:#E8F5FF;}
+.g2_1{fill:none;stroke:#CBCBCB;stroke-width:0.458;stroke-linejoin:round;}
+.g3_1{fill:none;stroke:#00F;stroke-width:0.611;stroke-miterlimit:10;}
+</style>
+</defs>
+<path d="M55.8 939.5H541M55.8 195.8H541" class="g0_1"/>
+<path fill-rule="evenodd" d="M762 1240.9H644.5V43.5H879.4V1240.9H762Z" class="g1_1"/>
+<path d="M666.3 101.1H846.5M666.3 230.6H846.5M666.3 749.7H846.5m-180.2 165H853.6" class="g2_1"/>
+<path d="M675.2 163.5H867.1M675.4 179.6h13.2" class="g3_1"/>
+<path d="M55.8 652.8H541" class="g0_1"/>
+</svg>
