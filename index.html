@@ -1,6 +1,3 @@
-Below is the HTML code for the resume you requested. Save it as an `.html` file and open it in a browser to view the resume.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,36 +7,36 @@ Below is the HTML code for the resume you requested. Save it as an `.html` file 
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
         .container {
-            max-width: 800px;
-            margin: auto;
+            max-width: 900px;
+            margin: 20px auto;
             background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #333;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
+            font-size: 2.5em;
+            color: #333;
         }
-        .contact, .skills, .education, .certification {
+        h2, h3 {
+            color: #444;
             margin-top: 20px;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 5px;
         }
         ul {
             margin: 0;
             padding: 0 0 0 20px;
+            list-style: disc;
         }
         li {
             margin-bottom: 10px;
-        }
-        .project, .experience {
-            margin-bottom: 20px;
         }
         .contact ul {
             list-style: none;
@@ -48,29 +45,48 @@ Below is the HTML code for the resume you requested. Save it as an `.html` file 
         .contact ul li {
             margin-bottom: 5px;
         }
+        .section {
+            margin-bottom: 20px;
+        }
+        .skills ul, .contact ul {
+            padding-left: 0;
+        }
+        .skills li, .contact li {
+            list-style-type: none;
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Rajnish Tiwari</h1>
-        <h2>9.5 Years of Experience in Software Automation Testing</h2>
+        <h2>10.1 Years of Experience in Software Automation Testing</h2>
 
-        <section class="summary">
+        <section class="summary section">
             <h3>Summary</h3>
             <ul>
-                <li>Experience in Web-based Applications and Rest API Testing (automation and manual) with a strong understanding of test processes.</li>
-                <li>Led an automation team of 5 members, involving test planning, tracking, reporting, and script reviews.</li>
-                <li>Developed and enhanced data-driven and hybrid automation frameworks for UI and Rest API projects.</li>
+                <li>Experience in web-based UI, Rest API, and database validation testing using both automation and manual testing.</li>
+                <li>Led an automation team of 5 members, involved in test planning, tracking, reporting, and script review.</li>
+                <li>Developed data-driven and hybrid automation frameworks for Web UI, Rest API, and database validation.</li>
                 <li>Skilled in creating automation test scripts using Java, Rest Assured, Maven, Git, Selenium WebDriver, and TestNG.</li>
-                <li>Experience with Git, Jenkins integration, and tools like JIRA for defect management.</li>
-                <li>Performed Functional, Smoke, Sanity, Integration, UAT, Regression, UI, Security, Compatibility, and Cross-browser testing.</li>
+                <li>Used GitPub as a code repository and Code Collaborator to manage code reviews.</li>
+                <li>Performed functional, smoke, sanity, SIT, UAT, regression, UI, security, compatibility, and cross-browser testing.</li>
+                <li>Integrated automation frameworks with Jenkins for Continuous Integration.</li>
+                <li>Experienced in raising and tracking bugs using tools like JIRA.</li>
             </ul>
         </section>
 
-        <section class="experience">
+        <section class="experience section">
             <h3>Work Experience</h3>
             <ul>
-                <li>Project Lead, Persistent Systems, Pune, India (4 months).</li>
+                <li>Project Lead, Persistent Systems, Pune, India (1 year).</li>
                 <li>9.1 years at Cybage Software Pvt Ltd, Pune, India:
                     <ul>
                         <li>QA Analyst (Nov 2020 - Present): Automation Test Lead.</li>
@@ -78,62 +94,67 @@ Below is the HTML code for the resume you requested. Save it as an `.html` file 
                         <li>QA Engineer (Sep 2014 - Mar 2018): Automation Engineer.</li>
                     </ul>
                 </li>
-                <li>6 months onsite experience in Japan: Onshore-offshore coordination, bug tracking, and early test support.</li>
+                <li>6 months onsite experience in Japan: Coordination with onshore and offshore teams, bug tracking, and early test support.</li>
             </ul>
         </section>
 
-        <section class="projects">
+        <section class="projects section">
             <h3>Projects</h3>
-            <div class="project">
+            <div>
                 <strong>Rakuten API Test Automation (10/2017 – 10/2023)</strong>
                 <ul>
-                    <li>Analyzed requirements, created test scenarios, and executed manual tests.</li>
-                    <li>Developed automated test scripts for REST API testing using Rest Assured.</li>
-                    <li>Maintained and executed automation suites on Jenkins and local environments.</li>
+                    <li>Analyzed business requirements, documented specifications, estimated efforts, and created test scenarios.</li>
+                    <li>Verified requests and response data validations.</li>
+                    <li>Developed automated test scripts for REST API functionality using Rest Assured.</li>
+                    <li>Executed and maintained automation suites over Jenkins and local environments.</li>
                 </ul>
             </div>
-            <div class="project">
+            <div>
                 <strong>Global Ichiba UI Automation (09/2014 – 09/2017)</strong>
                 <ul>
-                    <li>Created and executed test scenarios manually; maintained test results in Test Rail.</li>
-                    <li>Developed and maintained Selenium WebDriver scripts using a data-driven framework.</li>
+                    <li>Understood requirements, created and executed test scenarios, and maintained results in Test Rail.</li>
+                    <li>Generated daily status reports and shared task progress and plans.</li>
+                    <li>Developed and maintained Selenium WebDriver scripts for functional testing using a data-driven framework.</li>
                 </ul>
             </div>
         </section>
 
-        <section class="contact">
+        <section class="contact section">
             <h3>Contact</h3>
             <ul>
                 <li>Pune, MH, India</li>
                 <li>+91 9604867525</li>
-                <li>rajnish_tiwari@persistent.com</li>
+                <li>rajnishtiwari1289@gmail.com</li>
             </ul>
         </section>
 
-        <section class="skills">
+        <section class="skills section">
             <h3>Skills</h3>
             <ul>
-                <li><strong>Hard Skills:</strong> JAVA, Test-NG, Rest-Assured, Selenium, Maven, Git, XM, SQL</li>
+                <li><strong>Hard Skills:</strong> JAVA, TestNG, Rest Assured, Selenium, Maven, Git, XM, SQL</li>
                 <li><strong>Design Patterns:</strong> Page Object, Singleton, Factory, Builder</li>
                 <li><strong>Techniques:</strong> Agile Methodologies, Three-point estimation</li>
-                <li><strong>Tools:</strong> Postman, Eclipse, Jenkins, Test Rail, JIRA, Confluence, GitPub, CarotDAV, VS Code, MySQL</li>
+                <li><strong>Tools:</strong> Postman, Eclipse, IntelliJ, Jenkins, Test Rail, JAMA, JIRA, Confluence, Git, CarotDAV, FileZilla, VS Code, MySQL, Oracle</li>
                 <li><strong>Languages:</strong> English (Native), Hindi (Native)</li>
             </ul>
         </section>
 
-        <section class="education">
+        <section class="education section">
             <h3>Education</h3>
             <ul>
                 <li>Bachelor’s in Engineering (IT) from Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</li>
             </ul>
         </section>
 
-        <section class="certification">
+        <section class="certification section">
             <h3>Certification</h3>
             <ul>
                 <li>Post-Graduation Diploma in Advanced Computing</li>
             </ul>
         </section>
     </div>
+    <footer>
+        <p>&copy; 2024 Rajnish Tiwari</p>
+    </footer>
 </body>
 </html>
